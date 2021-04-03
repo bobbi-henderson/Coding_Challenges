@@ -19,4 +19,3 @@ function solution(number){
     let total = numbers.filter(divBy3Or5).reduce((acc, cur)=>{return acc+cur})
     return total
 }
-  
