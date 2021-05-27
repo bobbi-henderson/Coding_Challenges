@@ -6,4 +6,4 @@
 
 function getCount(str) {
     return str.match(/[aeiou]/g) !== null ? str.match(/[aeiou]/g).length : 0
-  }
+}
